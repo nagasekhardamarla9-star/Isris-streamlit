@@ -8,7 +8,7 @@ x= data.data
 y= data.target
 model.fit(x,y)
 st.header('Iris Flower classification')
-sl=st.st.number_input("Enter the seple length")
+sl=st.number_input("Enter the seple length")
 sw=st.number_input("Enter the seple width")
 pl=st.number_input("Enter the petal length")
 pw=st.number_input("Enter the petal width")
